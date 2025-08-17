@@ -34,7 +34,7 @@ public class Main {
         else {
             System.out.println("Лидеры гонки \"24 часа Ле-Ман\": ");
             for (Car leader: leaders){
-                System.out.println("* " + leader.getName() + ", проехал - " + leader.getDistanceIn24Hours() + " км.");
+                System.out.println("* " + leader.getName() + ", он проехал - " + leader.getDistanceIn24Hours() + " км.");
             }
         }
     }

@@ -1,22 +1,22 @@
 public class Car {
     /// Локальные переменные для хранения заданных в конструкторе значений.
-    private String name; // Название машинки.
-    private int speed; //Скорость машинки.
+    private String _name; // Название машинки.
+    private int _speed; //Скорость машинки.
 
     /// Конструктор, принимает на вход значения: имя машинки, и ее скорость.
     public Car(String name, int speed) {
-        this.name = name;
-        this.speed = speed;
+        _name = name;
+        _speed = speed;
     }
 
     /// Метод доступа к названию машинки.
     public String getName() {
-        return name;
+        return _name;
     }
 
     /// Метод доступа к скорости машинки.
     public int getSpeed() {
-        return speed;
+        return _speed;
     }
 
     /// Вычисляет расстояние пройденное машинкой за 24 чсас.
